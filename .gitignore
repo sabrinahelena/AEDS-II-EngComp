@@ -75,3 +75,23 @@ local.properties
 .target
 # TeXlipse plugin
 .texlipse
+
+# Binários gerados pelo compilador
+*.o
+*.exe
+
+# Diretórios gerados pelo sistema de build
+build/
+
+# Arquivos gerados pelo editor de código
+*.swp
+*.swo
+
+# Arquivos gerados pelo compilador
+*.dSYM/
+
+# Arquivos gerados pelo GDB
+gdb_history
+
+# Arquivos temporários
+*.tmp
