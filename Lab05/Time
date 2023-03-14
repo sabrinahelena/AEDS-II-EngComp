@@ -1,0 +1,26 @@
+package AtividadeNatal;
+
+public class Time {
+	private Duende Lider;
+	private Duende Entregador;
+	private Duende Piloto;
+	
+	public Time() {
+		Lider = new Duende();
+		Entregador = new Duende();
+		Piloto = new Duende();
+	}
+	
+	public Time(Duende lider, Duende entregador, Duende piloto) {
+		Lider = lider;
+		Entregador = entregador;
+		Piloto = piloto;
+	}
+	
+    public void CostruirTime(Duende array[]) {
+    	if(array.length%3 == 0) {
+    		
+    	}
+    }
+
+}
