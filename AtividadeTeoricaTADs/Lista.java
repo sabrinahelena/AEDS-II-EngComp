@@ -131,6 +131,4 @@ public class Lista {
         System.out.println("Quantidade movimentacoes: " + quantMovimentacoes);
         exibirLista();
     }
-
-
 }
